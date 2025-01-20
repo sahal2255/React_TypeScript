@@ -25,7 +25,7 @@ const App: React.FC=() =>{
 
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
       </div>
-      <div >
+      <div className="mt-8">
         <TodoList todos={todos} setTodos={setTodos}/>
       </div>
     </div>
